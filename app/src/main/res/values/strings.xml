@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BMI_calculator</string>
+    <string name="title">BMI Calculator</string>
+    <string name="fname_et">First name</string>
+    <string name="lname_et">Last name</string>
+    <string name="weight_et">Weight</string>
+    <string name="height_et">Height</string>
+    <string name="age_et">Age</string>
+    <string name="male_tv">Male</string>
+    <string name="female_tv">Female</string>
+    <string name="calculate_bt">Calculate</string>
+    <string name="invalid_input_message">Please enter valid information</string>
+    <string name="height_error_message">Can not calculate BMI for people under 150cm</string>
+    <string name="age_error_message">Can not calculate BMI for people under 12 years old</string>
+    <string name="empty_field_message">Please fill in all the fields</string>
+    <string name="result_title">Your BMI results</string>
+    <string name="fname">First name: %1$s</string>
+    <string name="lname">Last name: %1$s</string>
+    <string name="height">Height: %1$s</string>
+    <string name="weight">Weight: %1$s</string>
+    <string name="age">Age: %1$s</string>
+    <string name="back">Go Back</string>
+    <string name="training_video">Go to training video</string>
+</resources>

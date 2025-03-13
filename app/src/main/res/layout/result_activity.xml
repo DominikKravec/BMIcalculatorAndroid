@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_title"
+        android:textSize="36sp"
+
+    />
+
+    <TextView
+        android:id="@+id/fname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fname"
+        android:textSize="24sp"
+    />
+
+    <TextView
+        android:id="@+id/lname_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lname"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/height_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/height"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/weight_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/age_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age"
+        android:textSize="24sp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/bmi_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI: 0"
+            android:textSize="24sp"
+            />
+
+        <SeekBar
+            android:id="@+id/result_bar"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textSize="30sp"
+    />
+
+    <Button
+        android:id="@+id/video_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/training_video"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+</LinearLayout>
