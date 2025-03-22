@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI_calculator</string>
+    <string name="title">BMI Kalkulačka</string>
+    <string name="fname_et">Krstné meno</string>
+    <string name="lname_et">Priezvisko</string>
+    <string name="weight_et">Váha</string>
+    <string name="height_et">Výška</string>
+    <string name="age_et">Vek</string>
+    <string name="male_tv">Muž</string>
+    <string name="female_tv">Žena</string>
+    <string name="calculate_bt">Vypočítať</string>
+    <string name="invalid_input_message">Prosím zadajte správne informácie</string>
+    <string name="height_error_message">Nemôžeme počítať bmi pre ľudí pod 150cm</string>
+    <string name="age_error_message">Nemôžeme počítať bmi pre ľudí mladších ako 12 rokov</string>
+    <string name="empty_field_message">Vyplň všetky políčka</string>
+    <string name="result_title">Vaše BMI výsledky</string>
+    <string name="fname">Krstné meno: %1$s</string>
+    <string name="lname">Priezvisko: %1$s</string>
+    <string name="height">Výška: %1$s</string>
+    <string name="weight">Váha: %1$s</string>
+    <string name="age">Vek: %1$s</string>
+    <string name="back">Späť</string>
+    <string name="training_video">Cviky</string>
+</resources>

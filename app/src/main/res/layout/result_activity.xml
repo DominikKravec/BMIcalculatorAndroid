@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     android:gravity="top|center"
     android:orientation="vertical"
+    android:background="@drawable/background"
+    android:paddingVertical="60dp"
     >
 
     <TextView
@@ -12,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/result_title"
         android:textSize="36sp"
-
+        android:textColor="@color/secondary"
     />
 
     <TextView
@@ -21,6 +23,7 @@
         android:layout_height="wrap_content"
         android:text="@string/fname"
         android:textSize="24sp"
+        android:textColor="@color/secondary_fade"
     />
 
     <TextView
@@ -29,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="@string/lname"
         android:textSize="24sp"
+        android:textColor="@color/secondary_fade"
         />
 
     <TextView
@@ -37,6 +41,8 @@
         android:layout_height="wrap_content"
         android:text="@string/height"
         android:textSize="24sp"
+        android:textColor="@color/secondary_fade"
+
         />
 
     <TextView
@@ -45,6 +51,7 @@
         android:layout_height="wrap_content"
         android:text="@string/weight"
         android:textSize="24sp"
+        android:textColor="@color/secondary_fade"
         />
 
     <TextView
@@ -53,11 +60,13 @@
         android:layout_height="wrap_content"
         android:text="@string/age"
         android:textSize="24sp"
+        android:textColor="@color/secondary_fade"
         />
 
     <LinearLayout
+        android:id="@+id/bmi_result_view"
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center">
@@ -68,12 +77,14 @@
             android:layout_height="wrap_content"
             android:text="BMI: 0"
             android:textSize="24sp"
+            android:textColor="@color/secondary"
             />
 
         <SeekBar
             android:id="@+id/result_bar"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:theme="@style/MySeekBar"
         />
 
     </LinearLayout>
@@ -84,6 +95,9 @@
         android:layout_height="wrap_content"
         android:text="@string/back"
         android:textSize="30sp"
+        android:backgroundTint="@color/secondary"
+        android:textColor="@color/primary"
+        android:drawableLeft="@drawable/back_arrow"
     />
 
     <Button
@@ -93,6 +107,9 @@
         android:text="@string/training_video"
         android:textSize="30sp"
         android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/secondary"
+        android:textColor="@color/primary"
+        android:drawableLeft="@drawable/youtube"
         />
 
 

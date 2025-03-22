@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RadioButton" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/secondary</item>
+        <item name="android:textColorSecondary">@color/secondary</item>
+        <item name="colorControlNormal">@color/secondary_fade</item>
+    </style>
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">@color/secondary_fade</item>
+        <item name="android:progressTint">@color/secondary</item>
+        <item name="android:thumbTint">@color/secondary_fade</item>
+    </style>
+
+    <style name="MySeekBarBad" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#99FD653F</item>
+        <item name="android:progressTint">#FD653F</item>
+        <item name="android:thumbTint">#FD653F</item>
+
+    </style>
+
+    <style name="MySeekBarMedium" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#99FFBB3D</item>
+        <item name="android:progressTint">#FFBB3D</item>
+        <item name="android:thumbTint">#FFBB3D</item>
+    </style>
+
+    <style name="AppTheme">
+        <item name="android:statusBarColor">@color/secondary</item>
+    </style>
+
+
+</resources>
